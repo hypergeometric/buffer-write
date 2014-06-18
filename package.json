@@ -1,6 +1,6 @@
 {
   "name": "ghostwriter",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Lazily write to a buffer",
   "main": "./lib/index.js",
   "contributors": [
