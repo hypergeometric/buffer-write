@@ -7,24 +7,20 @@
     "Ben Shepheard <ben@coinative.com>",
     "Dan Howitt <dan@coinative.com>"
   ],
-  "directories": {
-    "test": "test"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coinative/ghostwriter.git"
   },
+  "bugs": {
+    "url": "https://github.com/coinative/ghostwriter/issues"
+  },
+  "homepage": "https://github.com/coinative/ghostwriter",
+  "license": "MIT",
   "scripts": {
     "test": "mocha -r ./test/support/env -R dot ./test",
     "test-cov": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha -- -r ./test/support/env -R dot ./test",
     "test-travis": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -r ./test/support/env -R spec ./test"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/coinative/ghostwriter.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/coinative/ghostwriter/issues"
-  },
-  "homepage": "https://github.com/coinative/ghostwriter",
   "devDependencies": {
     "chai": "^1.9.1",
     "istanbul": "^0.2.11",
