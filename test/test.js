@@ -1,6 +1,6 @@
 var Writer = require('../');
 
-describe('ghostwriter', function () {
+describe('buffer-write', function () {
   var writer;
 
   beforeEach(function () {

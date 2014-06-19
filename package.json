@@ -1,7 +1,7 @@
 {
-  "name": "ghostwriter",
+  "name": "buffer-write",
   "version": "0.0.1",
-  "description": "Lazily write to a buffer",
+  "description": "Write to a buffer without maintaining an offset or knowing its length",
   "main": "./lib/index.js",
   "contributors": [
     "Ben Shepheard <ben@coinative.com>",
@@ -9,12 +9,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/coinative/ghostwriter.git"
+    "url": "https://github.com/coinative/buffer-write.git"
   },
   "bugs": {
-    "url": "https://github.com/coinative/ghostwriter/issues"
+    "url": "https://github.com/coinative/buffer-write/issues"
   },
-  "homepage": "https://github.com/coinative/ghostwriter",
+  "homepage": "https://github.com/coinative/buffer-write",
   "license": "MIT",
   "scripts": {
     "test": "mocha -r ./test/support/env -R dot ./test",

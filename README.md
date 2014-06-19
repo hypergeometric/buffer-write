@@ -1,8 +1,8 @@
-# ghostwriter
+# buffer-write
 
-[![Build Status](https://img.shields.io/travis/coinative/ghostwriter.svg)](https://travis-ci.org/coinative/ghostwriter) [![Coverage Status](https://img.shields.io/coveralls/coinative/ghostwriter.svg)](https://coveralls.io/r/coinative/ghostwriter?branch=master)
+[![Build Status](https://img.shields.io/travis/coinative/buffer-write.svg)](https://travis-ci.org/coinative/buffer-write) [![Coverage Status](https://img.shields.io/coveralls/coinative/buffer-write.svg)](https://coveralls.io/r/coinative/buffer-write?branch=master)
 
-Lazily write to a buffer. Useful when you don't know or would prefer not to calculate the size of your input values.
+Write to a buffer without maintaining an offset or knowing its length.
 
 * This module tries to mirror Buffer methods for simplicity.
 * Supports writing 64-bit values at 52-bit precision (JavaScript safe integer maximum).
@@ -10,13 +10,13 @@ Lazily write to a buffer. Useful when you don't know or would prefer not to calc
 ## Install
 
 ```
-npm install ghostwriter
+npm install buffer-write
 ```
 
 ## Usage
 
 ```js
-var Writer = require('ghostwriter');
+var Writer = require('buffer-write');
 
 // Normal method
 var writer = new Writer()
