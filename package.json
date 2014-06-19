@@ -1,6 +1,6 @@
 {
   "name": "buffer-write",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Write to a buffer without maintaining an offset or knowing its length",
   "main": "./lib/index.js",
   "contributors": [
